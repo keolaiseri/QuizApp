@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE ScrollView [<!ELEMENT ScrollView (LinearLayout)*><!ATTLIST ScrollViewxmlns:android CDATA #REQUIREDxmlns:app CDATA #REQUIREDxmlns:tools CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:fillViewport CDATA #REQUIREDtools:context CDATA #REQUIRED><!ELEMENT LinearLayout (TextView|ImageView|LinearLayout|ProgressBar)*><!ATTLIST LinearLayoutandroid:gravity CDATA #REQUIREDandroid:id CDATA #IMPLIEDandroid:layout_height CDATA #REQUIREDandroid:layout_marginTop CDATA #IMPLIEDandroid:layout_width CDATA #REQUIREDandroid:orientation CDATA #REQUIREDandroid:padding CDATA #IMPLIED><!ELEMENT TextView (#PCDATA)><!ATTLIST TextViewandroid:background CDATA #IMPLIEDandroid:gravity CDATA #REQUIREDandroid:id CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:layout_margin CDATA #IMPLIEDandroid:layout_width CDATA #REQUIREDandroid:padding CDATA #IMPLIEDandroid:text CDATA #IMPLIEDandroid:textColor CDATA #IMPLIEDandroid:textColorHint CDATA #IMPLIEDandroid:textSize CDATA #REQUIREDtools:text CDATA #IMPLIED><!ELEMENT ImageView (#PCDATA)><!ATTLIST ImageViewandroid:id CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:layout_marginTop CDATA #REQUIREDandroid:src CDATA #REQUIRED><!ELEMENT ProgressBar (#PCDATA)><!ATTLIST ProgressBarandroid:id CDATA #REQUIREDstyle CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:layout_weight CDATA #REQUIREDandroid:max CDATA #REQUIREDandroid:minHeight CDATA #REQUIREDandroid:progress CDATA #REQUIREDandroid:indeterminate CDATA #REQUIRED>]>
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -102,7 +101,7 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Anroid"/>
+            tools:text="Android"/>
 
         <TextView
             android:id="@+id/tv_option_four"
